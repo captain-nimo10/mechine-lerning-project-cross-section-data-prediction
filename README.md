@@ -30,3 +30,14 @@ The dataset used is experimental data from Hermann et al. (1999), which contains
 2. Run the Python script
 3. The program will ask you to enter an energy value in MeV.
 4. The program will display the predicted cross-section.
+## Necessity of the mechine learning in cross-sectional data analysis
+It is often not possible to experimentally evaluate the complete cross-sectional data for a specific nuclear reaction due to limitations in laboratory facilities, measurement time, and resource availability.
+
+Machine learning can significantly address this issue by enabling scientists to:
+
+1. Train regression models on available experimental data.
+
+2. Predict unknown cross-section values at energy ranges where direct measurements are not feasible.
+
+This project is based on that concept.
+It utilizes a sample dataset from experimental results and applies polynomial regression to predict cross-section values at unmeasured energy points
